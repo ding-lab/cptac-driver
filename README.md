@@ -41,5 +41,3 @@ ssh -L PORT:NODE_NAME:PORT -N USERNAME@katmai.wusm.wustl.edu
 ```
 
 Then past the link copied in the first step into your browser (make sure you replace NODE_NAME in that link with localhost) and everything should work :)
-
-## Erikscript
