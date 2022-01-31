@@ -29,7 +29,7 @@ Calculate driver scores with [calculate_driver_score.ipynb](https://github.com/d
 
 jupyter notebook command for some dinglab servers is weird, but the below should work for all nodes
 
-First, run this on whatever node you are working on from within the cptac_driver conda environment. Replace PORT with whatever port you want (i.e. 12345, 11111, etc.), usually anything between 8000-5000 will work. Copy the link output by this command.
+First, run this on whatever node you are working on from within the cptac_driver conda environment. Replace PORT with whatever port you want (i.e. 12345, 11111, etc.), usually anything between 8000-50000 will work. Copy the link output by this command.
 ```bash
 jupyter notebook --port PORT --no-browser --allow-root --ip=0.0.0.0
 ```
